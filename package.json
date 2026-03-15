@@ -1,0 +1,19 @@
+{
+  "name": "programming-helper",
+  "version": "1.0.0",
+  "description": "An MCP server providing expert programming guidance, grammar rules, and design patterns for Java, Go, C, C++, JavaScript, TypeScript, Node.js, Python, and PowerShell.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
+}
