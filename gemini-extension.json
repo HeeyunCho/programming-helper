@@ -1,0 +1,20 @@
+{
+  "name": "programming-expert",
+  "version": "1.0.0",
+  "description": "Programming guidance server providing official specs, best practices, and design patterns for multiple languages.",
+  "main": "dist/index.js",
+  "tools": [
+    {
+      "name": "get_language_guidance",
+      "description": "Get official documentation, grammar specs, and best practices for a specific programming language."
+    },
+    {
+      "name": "get_pattern_guidance",
+      "description": "Get guidance on idiomatic design patterns for a specific language."
+    },
+    {
+      "name": "ping",
+      "description": "Simple ping to verify server status."
+    }
+  ]
+}

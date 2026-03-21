@@ -1,0 +1,15 @@
+@startuml
+package "programming-helper" {
+    class "Expert Server" {
+        + get_language_guidance(language)
+        + get_pattern_guidance(language, pattern)
+        + ping()
+    }
+    
+    class "Resource Library" {
+        - LANGUAGE_RESOURCES
+    }
+    
+    "Expert Server" --> "Resource Library" : "References"
+}
+@enduml
